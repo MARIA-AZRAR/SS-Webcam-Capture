@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSApplication", "SSApplication\SSApplication.csproj", "{490F7A32-8B25-430F-9FDF-1A33BF876A19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web-Services", "..\..\Web-Services\Web-Services\Web-Services.csproj", "{DE09E8E0-D2CB-47D1-95F0-80152925284A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{490F7A32-8B25-430F-9FDF-1A33BF876A19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{490F7A32-8B25-430F-9FDF-1A33BF876A19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{490F7A32-8B25-430F-9FDF-1A33BF876A19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{490F7A32-8B25-430F-9FDF-1A33BF876A19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE09E8E0-D2CB-47D1-95F0-80152925284A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE09E8E0-D2CB-47D1-95F0-80152925284A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE09E8E0-D2CB-47D1-95F0-80152925284A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE09E8E0-D2CB-47D1-95F0-80152925284A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {316CD491-5FC3-4AB7-9996-A551ED58A209}
+	EndGlobalSection
+EndGlobal
