@@ -1,0 +1,26 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SSApplication"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" x:Class="SSApplication.Home"
+        mc:Ignorable="d"
+        Title="Home" Height="450" Width="800" WindowStyle="None" ResizeMode="NoResize">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0.1,0" EndPoint="0.9,1">
+                <GradientStop Color="#61045F" Offset="1" />
+                <GradientStop Color="#AA076B" Offset="0" />
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Border Height="390" VerticalAlignment="Top" CornerRadius="0 0 180 0" Background="white"/>
+        <TextBlock Margin="240,25,250,385" Foreground="black" TextAlignment="Center" FontSize="38" FontFamily="Great Vibes"><Run Text="Hom"/><Run Text="e"/></TextBlock>
+        <Button Margin="709,25,35,369" Style="{StaticResource MaterialDesignFloatingActionButton}" Background="{x:Null}"
+            ToolTip="Close" x:Name="btnExit" Click="btnExit_Click" Height="Auto">
+            <materialDesign:PackIcon Kind="Close" Foreground="black" Width="30" Height="30" />
+        </Button>
+
+
+    </Grid>
+</Window>
