@@ -10,7 +10,7 @@ while(result):
     ret,frame = videoCaptureObject.read()
     now = datetime.now();
 
-    path = 'E:\semester 6\FYP Trial\ScreenShotImages';
+    path = 'E:\Work\FYP Trial\ScreenShotImages';
 
     cv2.imwrite(os.path.join(path, "webcam" + num +".jpg"),frame)
     result = False
